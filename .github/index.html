@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+	<title>Main Menu</title>
+	<link rel="icon" type="xpmuser.github.io/assets/favicon.png" href="https://xpmuser.github.io/assets/favicon.png">
+	</head>
+    
+    <style>
+	body {
+		background-image: url("/oldprodigy/images/Background.png");
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		margin: auto;
+		height: 100%;
+		background-color: #627CDE;
+	}
+	
+	.select-panel {
+        display: block;
+        position: fixed;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+	}
+	
+	.button {
+		display: block;
+		position: fixed;
+	}
+	
+	.button:hover {
+		transform: translate(0px, -3px)
+	}
+	
+	.select-panel .banner {
+		position: fixed;
+		display: block;
+		top: 20px;
+		left: 55px;
+	}
+	
+	.select-panel .overlay {
+		position: fixed;
+		display: block;
+		top: 170px;
+		left: 11px;
+	}
+    </style>
+    
+<body>
+    
+	<div class="select-panel">
+        <img src="/oldprodigy/images/MenuPanel-3.png">
+        
+        <div class="banner">
+       	  <img alt="Version Select" src="/oldprodigy/images/MenuPanel-Banner.png">
+        </div>
+        
+        <div class="overlay">
+        	<img src="/oldprodigy/images/MenuPanel-Overlay.png">
+            
+            <a onclick="XPMUser('')" class="button" style="top: 12px; left: 12px; position: absolute">
+            	<img alt="" src="/oldprodigy/images/1-11-0.png">
+            </a>
+            
+            <a onclick="Feedbacks('')" class="button" style="top: 68px; left: 12px; position: absolute">
+            	<img alt="1-16-5" src="/oldprodigy/images/1-16-5.png">
+            </a>
+        </div>
+        
+        <div class="button" style="bottom: 110px; left: 150px;">
+            <a onclick="ExitSelection()">
+            	<img alt="Ao28th28" src="/oldprodigy/images/Ao28th28.png">
+            </a>
+        </div>
+        
+	</div>
+        
+</body>
+
+<script>
+var ClickSound = new Audio("/oldprodigy/audio/click.mp3"),
+Menu = {
+	Select: 0,
+	BetaPopup: 1,
+	ModSelect: 2,
+},
+currentMenu = Menu.Select,
+PlayClick = function() {
+	ClickSound.play()
+},
+ExitSelection = function() {
+	if (currentMenu != Menu.Select) {
+		return
+	};
+	PlayClick();
+	setTimeout(()=> {
+		window.location.href = "https://ao28th28.github.io/pickles/";
+	}, 200);
+},
+Feedbacks = function() {
+	if (currentMenu != Menu.Select) {
+		return
+	};
+	PlayClick();
+	setTimeout(()=> {
+		window.location.href = "https://github.com/XPMUser/XPMUser.github.io/issues";
+	}, 200);
+},
+Help = function() {
+	if (currentMenu != Menu.Select) {
+		return
+	};
+	PlayClick();
+	setTimeout(()=> {
+		window.location.href = "https://github.com/XPMUser/XPMUser.github.io/blob/main/README.md";
+	}, 200);
+},
+Math = function() {
+	if (currentMenu != Menu.Select) {
+		return
+	};
+	PlayClick();
+	setTimeout(()=> {
+		window.location.href = "https://xpmuser.github.io/prodigen-classic/prodigen.html";
+	}, 200);
+},	
+XPMUser = function() {
+	if (currentMenu != Menu.Select) {
+		return
+	};
+	PlayClick();
+	setTimeout(()=> {
+		window.location.href = "https://discord.gg/9HMtcgFQRc";
+	}, 200);
+},
+EnterGame = function(version) {
+	if (currentMenu != Menu.Select) {
+		return
+	};
+	PlayClick();
+	setTimeout(()=> {
+		window.location.href = "/oldprodigy" + version + "";
+	}, 200);
+}
+</script>
+
+</html>   

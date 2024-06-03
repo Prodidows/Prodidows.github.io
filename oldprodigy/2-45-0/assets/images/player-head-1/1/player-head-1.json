@@ -1,0 +1,18 @@
+{
+    "frames": {
+        }
+    {
+    },
+    "meta": {
+        "app": "http://www.codeandweb.com/texturepacker",
+        "version": "1.0",
+        "image": "player-head-1.png",
+        "format": "RGBA5555",
+        "size": {
+            "w": 250,
+            "h": 337
+        },
+        "scale": "1",
+        "smartupdate": "$TexturePacker:SmartUpdate:bfda8ebd224315a345470108072b8157:d9fbe510c07cb0444af4cc0483943681:8f627e2bfe71192cf51e2ed1b5a7f7bf$"
+    }
+}

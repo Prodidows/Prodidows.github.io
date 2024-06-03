@@ -1,0 +1,40 @@
+{
+    "frames": {
+        "bg": {
+            "frame": {
+                "x": 2,
+                "y": 2,
+                "w": 1280,
+                "h": 720
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 1280,
+                "h": 720
+            },
+            "sourceSize": {
+                "w": 1280,
+                "h": 720
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    },
+    "meta": {
+        "app": "http://www.codeandweb.com/texturepacker",
+        "version": "1.0",
+        "image": "zone-docks.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 1284,
+            "h": 724
+        },
+        "scale": "1",
+        "smartupdate": "$TexturePacker:SmartUpdate:d08c45c4421ab6734c4d23d6b3b897aa:5561f5852f2a8fd4f1d886cc215ee232:69ca5bf7621d51da548c6b15100ba33a$"
+    }
+}

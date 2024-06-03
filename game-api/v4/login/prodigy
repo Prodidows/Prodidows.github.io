@@ -1,0 +1,89 @@
+{
+    "issuer": "https://sso.prodigygame.com",
+    "issuer": "https://math.prodigygame.com",
+    "issuer": "https://play.prodigygame.com",
+    "authorization_endpoint": "https://sso.prodigygame.com/oauth/authorize",
+    "authorization_endpoint": "https://math.prodigygame.com/oauth/authorize",
+    "authorization_endpoint": "https://play.prodigygame.com/oauth/authorize",
+    "token_endpoint": "https://sso.prodigygame.com/oauth/token",
+    "revocation_endpoint": "https://sso.prodigygame.com/oauth/revoke",
+    "introspection_endpoint": "https://sso.prodigygame.com/oauth/introspect",
+    "userinfo_endpoint": "https://sso.prodigygame.com/oauth/userinfo",
+    "jwks_uri": "https://sso.prodigygame.com/oauth/discovery/keys",
+    "premises": "https://sso.prodigygame.com/premises"
+    "ajs_anonymous_id": "https://sso.prodigygame.com/ajs_anonymous_id"
+    "ajs_user_id": "https://sso.prodigygame.com/ajs_user_id"
+    "openid-configuration_endpoint": "https://sso.prodigygame.com/.well-known/openid-configuration"
+    "scopes_supported": [
+        "openid",
+        "employee",
+        "profile",
+        "name",
+        "email"
+    ],
+    "response_types_supported": [
+        "code",
+        "token",
+        "id_token",
+        "id_token token"
+    ],
+    "response_modes_supported": [
+        "query",
+        "fragment",
+        "form_post"
+    ],
+    "grant_types_supported": [
+        "authorization_code",
+        "implicit_oidc",
+        "client_credentials",
+        "password",
+        "refresh_token"
+    ],
+    "token_endpoint_auth_methods_supported": [
+        "client_secret_basic",
+        "client_secret_post"
+    ],
+    "subject_types_supported": [
+        "public"
+    ],
+    "id_token_signing_alg_values_supported": [
+        "RS256"
+    ],
+    "claim_types_supported": [
+        "normal"
+    ],
+    "claims_supported": [
+        "iss",
+        "sub",
+        "aud",
+        "exp",
+        "iat",
+        "username",
+        "created_at",
+        "last_visited",
+        "email",
+        "name",
+        "picture",
+        "employee",
+        "sid",
+        "third_party_access_token",
+        "identity_provider",
+        "roles",
+        "permissions",
+        "session_exp",
+        "premises",
+        "usertype",
+        "livedata_id",
+        "avatar_url",
+        "avatar_colour",
+        "password"
+        "premises"
+    ],
+    "code_challenge_methods_supported": [
+        "plain",
+        "S256"
+    ],
+    "backchannel_logout_supported": true,
+    "backchannel_logout_session_supported": true,
+    "end_session_endpoint": "https://sso.prodigygame.com/oidc/logout"
+}

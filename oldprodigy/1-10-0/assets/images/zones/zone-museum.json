@@ -1,0 +1,75 @@
+{"frames": {
+
+"13":
+{
+	"frame": {"x":1284,"y":2,"w":324,"h":316},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":324,"h":316},
+	"sourceSize": {"w":324,"h":316},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"14":
+{
+	"frame": {"x":1284,"y":320,"w":316,"h":342},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":316,"h":342},
+	"sourceSize": {"w":316,"h":342},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"15":
+{
+	"frame": {"x":1610,"y":2,"w":204,"h":232},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":204,"h":232},
+	"sourceSize": {"w":204,"h":232},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"16":
+{
+	"frame": {"x":1602,"y":320,"w":270,"h":214},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":270,"h":214},
+	"sourceSize": {"w":270,"h":214},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"bg":
+{
+	"frame": {"x":2,"y":2,"w":1280,"h":720},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1280,"h":720},
+	"sourceSize": {"w":1280,"h":720},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"empty":
+{
+	"frame": {"x":1686,"y":236,"w":80,"h":80},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":80,"h":80},
+	"sourceSize": {"w":80,"h":80},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"rail":
+{
+	"frame": {"x":1610,"y":236,"w":74,"h":82},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":82},
+	"sourceSize": {"w":74,"h":82},
+	"pivot": {"x":0.5,"y":0.5}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "zone-museum.png",
+	"format": "RGBA8888",
+	"size": {"w":1874,"h":724},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:f9f1497db18ab21c52bfa9922be82145:a5a29785de9168fc36e0576e357b029f:1e7c19fae07268ef986ac28cc5fa466d$"
+}
+}

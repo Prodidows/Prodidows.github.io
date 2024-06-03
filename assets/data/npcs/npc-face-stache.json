@@ -1,0 +1,21 @@
+{"frames": {
+
+"face_0":
+{
+	"frame": {"x":2,"y":2,"w":196,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":180},
+	"sourceSize": {"w":196,"h":180},
+	"pivot": {"x":0.5,"y":0.5}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "npc-face-stache.png",
+	"format": "RGBA8888",
+	"size": {"w":200,"h":184},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:98da7ccef56a3feabda697dac15f6ead:605046469613529333217187304bef8e:ecfdbd929db9e3718461a26d4048b5e1$"
+}
+}
